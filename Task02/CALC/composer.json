@@ -1,0 +1,29 @@
+{
+    "name": "zaglumosha/php_zaglumonina_ai",
+    "description": "Implementation of a php program on the topic \"Calculator\"",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zaglumosha\\CALC\\": "src/"
+        },
+        "files": [
+            "src/Controller.php",
+            "src/View.php",
+            "src/Database.php"
+        ]
+    },
+    "bin": [
+        "bin/calcg"
+    ],
+    "authors": [
+        {
+            "name": "Zagl",
+            "email": "al.zaglumonina@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.0"
+    }
+}
