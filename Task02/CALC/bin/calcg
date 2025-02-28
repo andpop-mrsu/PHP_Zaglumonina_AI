@@ -1,0 +1,8 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use Zaglumonina\CalcG\Controller;
+$playerName = $argv[1] ?? 'Игрок';
+Controller\startCalcGame($playerName);
